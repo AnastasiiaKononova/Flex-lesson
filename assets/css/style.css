@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+}
+/* 
+a:hover{
+background-color: grey;
+} */
+
+a:link{
+    color: yellow;
+}
+
+a:visited{
+    color: red;
+}
+
+
+
+a:hover{
+    color: orange;
+}
+a:active {
+    color: green;
+}
+
+input{
+    outline: none;
+}
+input:focus{
+    background-color: bisque;
+}
