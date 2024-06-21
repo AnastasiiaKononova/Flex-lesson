@@ -2,34 +2,15 @@
     box-sizing: border-box;
 }
 
-a{
-    color: inherit;
-}
-/* 
-a:hover{
-background-color: grey;
-} */
-
-a:link{
-    color: yellow;
+table {
+    border: 2px solid black;
+    /* схлопування границь  */
+    border-collapse: collapse;
+    /* відстань між комірками */
+    border-spacing: 0;
 }
 
-a:visited{
-    color: red;
-}
-
-
-
-a:hover{
-    color: orange;
-}
-a:active {
-    color: green;
-}
-
-input{
-    outline: none;
-}
-input:focus{
-    background-color: bisque;
+td, th {
+   padding: 5px; 
+   border: 2px solid black;
 }
