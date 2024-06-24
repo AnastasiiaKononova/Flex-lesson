@@ -45,38 +45,22 @@
   bottom: 0px;
   right: 10px;
 }
-/*поставити 4 елемент в верх правий кут*/
-/* .child:nth-child(4) {
-position: absolute;
-top: 0;
-right: 0;
-} */
-/* 
-поставити 5 елемент по центру
-.child:nth-child(5) {
-position: absolute;
-right: -50px;
-bottom: -50px;
-border-radius: 50%;
-background-color: green; 
-} */
 
-header {
-  background-image: url(https://images.pexels.com/photos/15301144/pexels-photo-15301144.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+/*fixed
+- місце в потоці не резервується
+*/
+.child:nth-child(4) {
+  position: fixed;
+  background-color: lightblue;
+  left: 0;
+  bottom: 0;
 }
 
-.bg-cover {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba (0, 0, 0, 0.2);
+p{
+  background-color: aquamarine;
+  position: fixed;
+  left: 15px;
+  right: 15px;
+bottom: 15px;
 }
